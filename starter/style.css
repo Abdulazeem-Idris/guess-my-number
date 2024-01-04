@@ -76,7 +76,7 @@ h1 {
   right: 2rem;
 }
 
-.restart {
+.again {
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -116,4 +116,89 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    /* margin-left: 1%; */
+  }
+
+  .between{
+    padding-top: 15px;
+    /* padding-left: 8%; */
+  }
+
+  .again {
+    width: 30%;
+    height: 50px;
+    /* text-align: start; */
+    font-size: 1.6rem;
+  }
+  
+  .number {
+    font-size: 3rem;
+    margin-bottom: 19px;
+
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 40px;
+  }
+
+  .guess {
+    width: 35%;
+    height: 80px;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+    margin-left: 15%;
+    border: 3px solid #eee;
+  }
+
+  .check{
+    height: 80px;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 3rem;
+  }
+
+  .right {
+    width: 100%;
+    /* margin-top: 40px; */
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .message {
+    /* margin-bottom: 10rem; */
+    height: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .label-score {
+    /* margin-bottom: 2rem; */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .label-highscore{
+    text-align: center;
+    margin-bottom: 70px;
+  }
 }
