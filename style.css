@@ -120,31 +120,41 @@ h1 {
 
 /* Media Query for smaller screens */
 @media only screen and (max-width: 768px) {
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    /* background-color: #60b347; */
+  }
+
   h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     /* margin-left: 1%; */
   }
 
-  .between{
+  .between {
     padding-top: 15px;
+    font-size: 2rem;
     /* padding-left: 8%; */
   }
 
   .again {
-    width: 30%;
+    width: 24%;
     height: 50px;
     /* text-align: start; */
-    font-size: 1.6rem;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    /* padding-bottom: px; */
   }
-  
+
   .number {
     font-size: 3rem;
     margin-bottom: 19px;
-
+    font-weight:bolder;
   }
 
-  main{
+  main {
     display: flex;
     flex-direction: column;
   }
@@ -154,7 +164,7 @@ h1 {
     /* height: 50px; */
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     margin-top: 40px;
   }
 
@@ -170,11 +180,13 @@ h1 {
     border: 3px solid #eee;
   }
 
-  .check{
+  .check {
     height: 80px;
     width: 35%;
     margin-left: 10%;
     margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
   }
 
   .right {
@@ -189,16 +201,19 @@ h1 {
     height: 3rem;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 2.6rem;
   }
-  
+
   .label-score {
     /* margin-bottom: 2rem; */
     margin-bottom: 10px;
     text-align: center;
+    font-size: 2.3rem;
   }
 
-  .label-highscore{
+  .label-highscore {
     text-align: center;
     margin-bottom: 70px;
+    font-size: 2.3rem;
   }
 }
